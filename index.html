@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>semáforo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('images/estrada.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+        }
+        </style>
+<center>
+<h1>semáforo</h1>
+
+
+<button onclick="document.getElementById('semáforo').src='images/semáforo verde.jpg'">ligar luz verde</button>
+<button onclick="document.getElementById('semáforo').src='images/semáforo amarelo.jpg'">ligar luz amarela</button>
+<button onclick="document.getElementById('semáforo').src='images/semáforo vermelho.jpg'">ligar luz vermelha</button>
+<button onclick="document.getElementById('semáforo').src='images/semáforo desligado.jpg'">desligar semáforo</button>
+
+<img id="semáforo" src="images/semáforo desligado.jpg" style="width:200px">
+</center>
+
+</body>
+</html>
